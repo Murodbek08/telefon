@@ -50,7 +50,7 @@ setInterval(() => {
 budilnikA.addEventListener("click", () => {
   location.href = "./pages/budulnik.html";
 });
-back.addEventListener("click", () => {});
+// back.addEventListener("click", () => {});
 
 // let soatTimer = document.querySelector(".soat-timer span");
 // let minutTimer = document.querySelector(".minut-timer span");
