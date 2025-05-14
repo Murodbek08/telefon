@@ -1,17 +1,30 @@
 .telefon {
-  background: url("../image/bacround-image.png") no-repeat;
-  background-size: cover;
+  background-color: rgb(3, 3, 3);
   margin: 10px auto;
   border: 10px solid rgb(3, 3, 3);
   border-radius: 60px;
   height: 956px;
   position: relative;
   width: 440px;
- 
   .telefon-header {
     margin-top: 15px;
     display: flex;
     align-items: center;
+    gap: 5px;
+    .batereka {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      span {
+        font-family: 10px;
+        color: white;
+      }
+      img {
+        border-radius: 0 7px 7px 0;
+        width: 30px;
+        background-color: rgb(92, 87, 87);
+      }
+    }
     .soat {
       padding: 0 0 0 20px;
       font-size: 20px;
@@ -40,16 +53,20 @@
   }
   .telefon-programmalar {
     .timer-container {
-      position: relative;
-      margin-top: 100px;
-      background-color: #ffffff;
       border-radius: 30px;
-      max-width: 400px;
-      height: 450px;
-
+      background-color: rgb(0, 0, 0);
+      width: 100%;
+      height: 100%;
       .timer {
-        padding: 10px;
+        border-radius: 30px;
+        .back {
+          img {
+            padding: 10px 20px;
+            width: 90px;
+          }
+        }
         .timer-hours {
+          margin-bottom: 100px;
           border-radius: 15px;
           background-color: #ff0404;
           padding: 10px;
@@ -72,7 +89,6 @@
       .timer-btns {
         width: 100%;
         bottom: 20px;
-        position: absolute;
         display: flex;
         justify-content: center;
         gap: 20px;
@@ -96,19 +112,6 @@
           font-size: 25px;
         }
       }
-    }
-  }
-  .telefon-footer {
-    position: absolute;
-    bottom: 20px;
-    border-radius: 40px;
-    background-color: #ffffff;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    div {
-      cursor: pointer;
     }
   }
 }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamera</title>
+    <link rel="stylesheet" href="../css/common.min.css" />
+    <link rel="stylesheet" href="../css/kamera.min.css" />
+  </head>
+  <body>
+    <div class="telefon">
+      <div class="container">
+        <div class="telefon-header">
+          <span class="soat"></span>
+          <div class="telefon__tepa__kamera">
+            <div class="telefon__tepa__kamera__aylana"></div>
+          </div>
+          <div class="antena">
+            <img src="../image/antena.svg" alt="" />
+          </div>
+          <div class="wifi">
+            <img src="../image/wifi.svg" alt="" />
+          </div>
+          <div class="batereka">
+            <span>0%</span>
+            <img src="../image/batareka.svg" alt="" />
+          </div>
+        </div>
+        <div class="telefon-programmalar">
+          <div class="kamera-container">
+            <div class="back">
+              <img src="../image/west.svg" alt="" />
+            </div>
+            <video
+              id="webCam"
+              autoplay
+              playsinline
+              width="380"
+              height="720"
+            ></video>
+            <canvas id="canvas" style="display: none"></canvas>
+            <a id="snap" href="#" download="snapshot.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/kamera.js"></script>
+  </body>
+</html>
