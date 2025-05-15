@@ -118,6 +118,7 @@
   justify-content: space-between;
   width: 90%;
 }
-.telefon .telefon-footer div {
+.telefon .telefon-footer button {
+  border: none;
   cursor: pointer;
 }
