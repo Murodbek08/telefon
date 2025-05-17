@@ -18,3 +18,5 @@ setInterval(() => {
     date.toLocaleTimeString("it-IT").split(":")[1];
   soat.textContent = hour;
 }, 200);
+
+

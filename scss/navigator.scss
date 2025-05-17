@@ -1,0 +1,82 @@
+.telefon {
+  background-color: rgb(3, 3, 3);
+  margin: 10px auto;
+  border: 10px solid rgb(3, 3, 3);
+  border-radius: 60px;
+  height: 956px;
+  position: relative;
+  width: 440px;
+  .telefon-header {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .batereka {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      span {
+        font-family: 10px;
+        color: white;
+      }
+      img {
+        border-radius: 0 7px 7px 0;
+        width: 30px;
+        background-color: rgb(92, 87, 87);
+      }
+    }
+    .soat {
+      padding: 0 0 0 20px;
+      font-size: 20px;
+      font-weight: 700;
+      color: white;
+    }
+    .telefon__tepa__kamera {
+      margin: 0 0 0 50px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 150px;
+      height: 35px;
+      border-radius: 30px;
+      background-color: rgb(3, 3, 3);
+      .telefon__tepa__kamera__aylana {
+        top: 6px;
+        position: absolute;
+        right: 15px;
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background-color: rgb(37, 46, 79);
+      }
+    }
+  }
+  .telefon-programmalar {
+    .navigator {
+      position: relative;
+      .back {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+          width: 13%;
+        }
+        h2 {
+          font-size: 30px;
+          color: white;
+        }
+      }
+      .navigator-url {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 380px;
+        iframe {
+          border-radius: 10px;
+          width: 400px;
+          height: 820px;
+        }
+      }
+    }
+  }
+}

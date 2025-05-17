@@ -1,0 +1,203 @@
+.telefon {
+  background-color: rgb(3, 3, 3);
+  margin: 10px auto;
+  border: 10px solid rgb(3, 3, 3);
+  border-radius: 60px;
+  height: 956px;
+  position: relative;
+  width: 440px;
+  .telefon-header {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .batereka {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      span {
+        font-family: 10px;
+        color: white;
+      }
+      img {
+        border-radius: 0 7px 7px 0;
+        width: 30px;
+        background-color: rgb(92, 87, 87);
+      }
+    }
+    .soat {
+      padding: 0 0 0 20px;
+      font-size: 20px;
+      font-weight: 700;
+      color: white;
+    }
+    .telefon__tepa__kamera {
+      margin: 0 0 0 50px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 150px;
+      height: 35px;
+      border-radius: 30px;
+      background-color: rgb(3, 3, 3);
+      .telefon__tepa__kamera__aylana {
+        top: 6px;
+        position: absolute;
+        right: 15px;
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background-color: rgb(37, 46, 79);
+      }
+    }
+  }
+  .telefon-programmalar {
+    .kankulyator {
+      position: relative;
+      .back {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+          width: 13%;
+        }
+        h2 {
+          font-size: 30px;
+          color: white;
+        }
+      }
+      .kankulyator-ansewer {
+        background-color: rgb(0, 0, 0);
+        height: 350px;
+      }
+      .kankulyator-ansewer {
+        span {
+          width: 200px;
+          position: absolute;
+          bottom: 10%;
+          font-size: 40px;
+          font-weight: 700;
+          color: white;
+        }
+      }
+      .kankulyator-btns {
+        position: absolute;
+        bottom: -430px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 20px;
+        button {
+          border-radius: 5px;
+          border: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 25px;
+          font-weight: 700;
+          color: white;
+          padding: 20px 30px;
+          &:hover {
+            opacity: 70%;
+          }
+        }
+        button:nth-child(1) {
+          background-color: #616161;
+        }
+        button:nth-child(2) {
+          background-color: #616161;
+        }
+        button:nth-child(3) {
+          background-color: #005db2;
+        }
+        button:nth-child(4) {
+          background-color: #005db2;
+        }
+        button:nth-child(5) {
+          grid-column-start: 4;
+          grid-row-start: 2;
+          background-color: #005db2;
+        }
+        button:nth-child(6) {
+          grid-column-start: 4;
+          grid-row-start: 3;
+          background-color: #005db2;
+        }
+        button:nth-child(7) {
+          grid-row: span 2 / span 2;
+          grid-column-start: 4;
+          grid-row-start: 4;
+          background-color: #005db2;
+        }
+        button:nth-child(8) {
+          grid-column: span 2 / span 2;
+          grid-column-start: 1;
+          grid-row-start: 5;
+          color: #29a8ff;
+          background-color: #303136;
+          padding: 10px;
+        }
+        button:nth-child(9) {
+          grid-column-start: 3;
+          grid-row-start: 5;
+          color: #29a8ff;
+          background-color: #303136;
+        }
+        button:nth-child(10) {
+          grid-column-start: 3;
+          grid-row-start: 4;
+          color: #29a8ff;
+          background-color: #303136;
+        }
+        button:nth-child(11) {
+          grid-column-start: 3;
+          grid-row-start: 3;
+          color: #29a8ff;
+          background-color: #303136;
+        }
+        button:nth-child(12) {
+          grid-column-start: 3;
+          grid-row-start: 2;
+          color: #29a8ff;
+          background-color: #303136;
+        }
+        button:nth-child(13) {
+          grid-column-start: 2;
+          grid-row-start: 2;
+          color: #29a8ff;
+          background-color: #303136;
+        }
+        button:nth-child(14) {
+          grid-column-start: 1;
+          grid-row-start: 2;
+          color: #29a8ff;
+          background-color: #303136;
+        }
+        button:nth-child(15) {
+          grid-column-start: 1;
+          grid-row-start: 3;
+          color: #29a8ff;
+          background-color: #303136;
+        }
+        button:nth-child(16) {
+          grid-column-start: 2;
+          grid-row-start: 3;
+          color: #29a8ff;
+          background-color: #303136;
+        }
+        button:nth-child(17) {
+          grid-column-start: 2;
+          grid-row-start: 4;
+          color: #29a8ff;
+          background-color: #303136;
+        }
+        button:nth-child(18) {
+          grid-column-start: 1;
+          grid-row-start: 4;
+          color: #29a8ff;
+          background-color: #303136;
+        }
+      }
+    }
+  }
+}
